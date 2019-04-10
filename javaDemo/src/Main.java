@@ -1,5 +1,8 @@
 import com.leetcode.*;
 
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
 /**
  * @author lijiangjiang0012
  */
@@ -18,5 +21,12 @@ public class Main {
                 {3, 6, 9, 16, 22}, {10, 13, 14, 17, 24}, {18, 21, 23, 26, 30}};
         Solution240 solution240 = new Solution240();
         System.out.println(solution240.searchMatrix(s240, 5));
+
+        int[] s88Num1 = {1, 2, 3, 0, 0, 0};
+        int[] s88Num2 = {2, 5, 6};
+        Solution88 solution88 = new Solution88();
+        solution88.merge(s88Num1, 3, s88Num2, 3);
+        System.out.println(Arrays.toString(s88Num1));
+
     }
 }
