@@ -1,6 +1,5 @@
 import com.leetcode.*;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 /**
@@ -27,6 +26,11 @@ public class Main {
         Solution88 solution88 = new Solution88();
         solution88.merge(s88Num1, 3, s88Num2, 3);
         System.out.println(Arrays.toString(s88Num1));
+
+        String s125 = "A man, a plan, a canal: Panama";
+        Solution125 solution125 = new Solution125();
+        System.out.println(solution125.isPalindrome(s125));
+
 
     }
 }
