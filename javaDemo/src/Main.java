@@ -1,6 +1,8 @@
 import com.leetcode.*;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 /**
  * @author lijiangjiang0012
@@ -30,6 +32,13 @@ public class Main {
         String s125 = "A man, a plan, a canal: Panama";
         Solution125 solution125 = new Solution125();
         System.out.println(solution125.isPalindrome(s125));
+
+
+
+        Solution5 solution5 = new Solution5();
+        String ss = "abcddcba";
+
+        System.out.println(solution5.isPalindromic(ss));
 
 
     }
